@@ -1,34 +1,220 @@
-// server.js
-// where your node app starts
+const Discord = require("discord.js");
+const myid = ['Your ID']
+const client = new Discord.Client();
+const client2 = new Discord.Client();
+const client3 = new Discord.Client();
+const client4 = new Discord.Client();
+const client5 = new Discord.Client();
+const client6 = new Discord.Client();
 
-// we've started you off with Express (https://expressjs.com/)
-// but feel free to use whatever libraries or frameworks you'd like through `package.json`.
-const express = require("express");
-const app = express();
 
-// our default array of dreams
-const dreams = [
-  "Find and count some sheep",
-  "Climb a really tall mountain",
-  "Wash the dishes"
-];
+client.login("");
+client2.login("");
+client3.login("");
+client4.login("");
+client5.login("");
+client6.login("");
 
-// make all the files in 'public' available
-// https://expressjs.com/en/starter/static-files.html
-app.use(express.static("public"));
 
-// https://expressjs.com/en/starter/basic-routing.html
-app.get("/", (request, response) => {
-  response.sendFile(__dirname + "/views/index.html");
+
+client.on('message', message => {
+  if (message.content === '$d') {
+message.channel.send('#daily')
+  }
+  if(message.content === '$c'){
+message.channel.send('#credits')
+  }
+  if(message.content.startsWith("$s")) {
+    var text = message.content.split(' ').slice(1).join(' ');
+     message.channel.send(text);
+  }
 });
 
-// send the default array of dreams to the webpage
-app.get("/dreams", (request, response) => {
-  // express helps us take JS objects and send them as JSON
-  response.json(dreams);
+client2.on('message', message => {
+  if(message.content === '$d'){
+message.channel.send('#daily')
+  }
+  if(message.content === '$c'){
+message.channel.send('#credits')
+  }
+  if(message.content.startsWith("$s")) {
+    var text = message.content.split(' ').slice(1).join(' ');
+     message.channel.send(text);
+  }
 });
 
-// listen for requests :)
-const listener = app.listen(process.env.PORT, () => {
-  console.log("Your app is listening on port " + listener.address().port);
+client3.on('message', message => {
+  if(message.content === '$d'){
+message.channel.send('#daily')
+  }
+  if(message.content === '$c'){
+message.channel.send('#credits')
+  }
+  if(message.content.startsWith("$s")) {
+    var text = message.content.split(' ').slice(1).join(' ');
+     message.channel.send(text);
+  }
+});
+
+client4.on('message', message => {
+  if (message.content === '$d') {
+message.channel.send('#daily')
+  }
+  if(message.content === '$c'){
+message.channel.send('#credits')
+  }
+  if(message.content.startsWith("$s")) {
+    var text = message.content.split(' ').slice(1).join(' ');
+     message.channel.send(text);
+  }
+});
+
+client5.on('message', message => {
+  if(message.content === '$d'){
+message.channel.send('#daily')
+  }
+  if(message.content === '$c'){
+message.channel.send('#credits')
+  }
+  if(message.content.startsWith("$s")) {
+    var text = message.content.split(' ').slice(1).join(' ');
+     message.channel.send(text);
+  }
+});
+
+client6.on('message', message => {
+  if (message.content === '$d') {
+message.channel.send('#daily')
+  }
+  if(message.content === '$c'){
+message.channel.send('#credits')
+  }
+  if(message.content.startsWith("$s")) {
+    var text = message.content.split(' ').slice(1).join(' ');
+     message.channel.send(text);
+  }
+});
+
+
+
+client.on('message', message => {
+if (message.content === '$spam') {
+      let count = 0;
+      let ecount = 0;
+      for(let x = 0; x < 9000; x++) {
+        message.channel.send(`**??? ???? ??? **[ " ${x} " ]`)
+          .then(m => {
+            count++;
+          })
+          
+        }
+      }
+});
+
+client2.on('message', message => {
+if (message.content === '$spam') {
+      let count = 0;
+      let ecount = 0;
+      for(let x = 0; x < 9000; x++) {
+        message.channel.send(`**??? ???? ??? **[ " ${x} " ]`)
+          .then(m => {
+            count++;
+          })
+          
+        }
+      }
+});
+
+client3.on('message', message => {
+if (message.content === '$spam') {
+      let count = 0;
+      let ecount = 0;
+      for(let x = 0; x < 9000; x++) {
+        message.channel.send(`**??? ???? ??? ?? ??? **[ " ${x} " ]`)
+          .then(m => {
+            count++;
+          })
+          
+        }
+      }
+});
+
+client4.on('message', message => {
+if (message.content === '$spam') {
+      let count = 0;
+      let ecount = 0;
+      for(let x = 0; x < 9000; x++) {
+        message.channel.send(`**??? ???? ??? ?? ??? **[ " ${x} " ]`)
+          .then(m => {
+            count++;
+          })
+          
+        }
+      }
+});
+
+client5.on('message', message => {
+if (message.content === '$spam') {
+      let count = 0;
+      let ecount = 0;
+      for(let x = 0; x < 9000; x++) {
+        message.channel.send(`**??? ???? ??? ?? ??? **[ " ${x} " ]`)
+          .then(m => {
+            count++;
+          })
+          
+        }
+      }
+});
+
+client6.on('message', message => {
+if (message.content === '$spam') {
+      let count = 0;
+      let ecount = 0;
+      for(let x = 0; x < 9000; x++) {
+        message.channel.send(`**??? ???? ??? **[ " ${x} " ]`)
+          .then(m => {
+            count++;
+          })
+          
+        }
+      }
+});
+
+
+
+client.on('message', message => {
+    if(message.content === '!rep'){
+        message.channel.send("#rep "+"<@" + myid + ">")
+    }
+});
+
+client2.on('message', message => {
+    if(message.content === '!rep'){
+        message.channel.send("#rep "+"<@" + myid + ">")
+    }
+});
+
+client3.on('message', message => {
+    if(message.content === '!rep'){
+        message.channel.send("#rep "+"<@" + myid + ">")
+    }
+});
+
+client4.on('message', message => {
+    if(message.content === '!rep'){
+        message.channel.send("#rep "+"<@" + myid + ">")
+    }
+});
+
+client5.on('message', message => {
+    if(message.content === '!rep'){
+        message.channel.send("#rep "+"<@" + myid + ">")
+    }
+});
+
+client6.on('message', message => {
+    if(message.content === '!rep'){
+        message.channel.send("#rep "+"<@" + myid + ">")
+    }
 });
