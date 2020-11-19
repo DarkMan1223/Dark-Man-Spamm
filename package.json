@@ -1,8 +1,8 @@
 {
-  "name": "simple-music",
+  "name": "simple-spam",
   "version": "1.0.0",
   "description": "Simple shitty music",
-  "main": "server.js",
+  "main": "emprator.js",
   "repository": {
     "type": "git",
     "url": ""
@@ -88,9 +88,6 @@
     "ytdl-core": "^0.29.0"
   },
   "scripts": {
-    "start": "node server.js"
-  },
-  "skripts": {
-    "start": "node music.js"
+    "start": "node emprator.js"
   }
 }
