@@ -14,95 +14,13 @@ client3.login("");
 client4.login("");
 client5.login("");
 client6.login("");
-
-
-
+//////
 client.on('message', message => {
-  if (message.content === '$d') {
-message.channel.send('#daily')
-  }
-  if(message.content === '$c'){
-message.channel.send('#credits')
-  }
-  if(message.content.startsWith("$s")) {
-    var text = message.content.split(' ').slice(1).join(' ');
-     message.channel.send(text);
-  }
-});
-
-client2.on('message', message => {
-  if(message.content === '$d'){
-message.channel.send('#daily')
-  }
-  if(message.content === '$c'){
-message.channel.send('#credits')
-  }
-  if(message.content.startsWith("$s")) {
-    var text = message.content.split(' ').slice(1).join(' ');
-     message.channel.send(text);
-  }
-});
-
-client3.on('message', message => {
-  if(message.content === '$d'){
-message.channel.send('#daily')
-  }
-  if(message.content === '$c'){
-message.channel.send('#credits')
-  }
-  if(message.content.startsWith("$s")) {
-    var text = message.content.split(' ').slice(1).join(' ');
-     message.channel.send(text);
-  }
-});
-
-client4.on('message', message => {
-  if (message.content === '$d') {
-message.channel.send('#daily')
-  }
-  if(message.content === '$c'){
-message.channel.send('#credits')
-  }
-  if(message.content.startsWith("$s")) {
-    var text = message.content.split(' ').slice(1).join(' ');
-     message.channel.send(text);
-  }
-});
-
-client5.on('message', message => {
-  if(message.content === '$d'){
-message.channel.send('#daily')
-  }
-  if(message.content === '$c'){
-message.channel.send('#credits')
-  }
-  if(message.content.startsWith("$s")) {
-    var text = message.content.split(' ').slice(1).join(' ');
-     message.channel.send(text);
-  }
-});
-
-client6.on('message', message => {
-  if (message.content === '$d') {
-message.channel.send('#daily')
-  }
-  if(message.content === '$c'){
-message.channel.send('#credits')
-  }
-  if(message.content.startsWith("$s")) {
-    var text = message.content.split(' ').slice(1).join(' ');
-     message.channel.send(text);
-  }
-});
-
-
-
-client.on('message', message => {
-if (message.content === '$spam') {
+if (message.content === '1') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 9000; x++) {
-        message.channel.send(`**??? ???? ??? **[ " ${x} " ]`)
+        message.channel.send(process.env.command)
           .then(m => {
             count++;
           })
@@ -112,11 +30,11 @@ if (message.content === '$spam') {
 });
 
 client2.on('message', message => {
-if (message.content === '$spam') {
+if (message.content === '1') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 9000; x++) {
-        message.channel.send(`**??? ???? ??? **[ " ${x} " ]`)
+        message.channel.send(process.envcommand)
           .then(m => {
             count++;
           })
@@ -140,11 +58,11 @@ if (message.content === '$spam') {
 });
 
 client4.on('message', message => {
-if (message.content === '$spam') {
+if (message.content === '1') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 9000; x++) {
-        message.channel.send(`**??? ???? ??? ?? ??? **[ " ${x} " ]`)
+        message.channel.send(process.env.command)
           .then(m => {
             count++;
           })
@@ -154,11 +72,11 @@ if (message.content === '$spam') {
 });
 
 client5.on('message', message => {
-if (message.content === '$spam') {
+if (message.content === '1') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 9000; x++) {
-        message.channel.send(`**??? ???? ??? ?? ??? **[ " ${x} " ]`)
+        message.channel.send(process.env.command)
           .then(m => {
             count++;
           })
@@ -168,11 +86,11 @@ if (message.content === '$spam') {
 });
 
 client6.on('message', message => {
-if (message.content === '$spam') {
+if (message.content === '1') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 9000; x++) {
-        message.channel.send(`**??? ???? ??? **[ " ${x} " ]`)
+        message.channel.send(process.env.command)
           .then(m => {
             count++;
           })
@@ -180,41 +98,4 @@ if (message.content === '$spam') {
         }
       }
 });
-
-
-
-client.on('message', message => {
-    if(message.content === '!rep'){
-        message.channel.send("#rep "+"<@" + myid + ">")
-    }
-});
-
-client2.on('message', message => {
-    if(message.content === '!rep'){
-        message.channel.send("#rep "+"<@" + myid + ">")
-    }
-});
-
-client3.on('message', message => {
-    if(message.content === '!rep'){
-        message.channel.send("#rep "+"<@" + myid + ">")
-    }
-});
-
-client4.on('message', message => {
-    if(message.content === '!rep'){
-        message.channel.send("#rep "+"<@" + myid + ">")
-    }
-});
-
-client5.on('message', message => {
-    if(message.content === '!rep'){
-        message.channel.send("#rep "+"<@" + myid + ">")
-    }
-});
-
-client6.on('message', message => {
-    if(message.content === '!rep'){
-        message.channel.send("#rep "+"<@" + myid + ">")
-    }
-});
+////////
