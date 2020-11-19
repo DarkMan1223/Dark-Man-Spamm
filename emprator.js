@@ -8,7 +8,7 @@ const client5 = new Discord.Client();
 const client6 = new Discord.Client();
 /////برۆ بەشی env لەوی کۆماند دانی
 ///////token accuont
-client.login("Nzc1MDA1MTA0NDE5MTEwOTQy.X6gCIg.4lE5lQriyt6IEHhxTPWTkw9u_mQ");
+client.login("");
 client2.login("");
 client3.login("");
 client4.login("");
