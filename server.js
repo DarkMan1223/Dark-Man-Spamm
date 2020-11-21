@@ -1,5 +1,5 @@
 const Discord = require("discord.js");
-const myid = ['THE MAIN ID']
+const myid = ['772965344926498836']
 const client = new Discord.Client();
 const client2 = new Discord.Client();
 const client3 = new Discord.Client();
@@ -9,7 +9,7 @@ const client6 = new Discord.Client();
 
 
 client.login("");
-client2.login("");
+client2.login("Nzc5NjQwOTM3MTM5MjczNzI4.X7loRQ.r8FzUtY5ZQU3ntwrTcmbbNNMx4s");
 client3.login("");
 client4.login("");
 client5.login("");
