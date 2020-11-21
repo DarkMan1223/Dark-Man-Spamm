@@ -8,20 +8,20 @@ const client5 = new Discord.Client();
 const client6 = new Discord.Client();
 
 
-client.login("");
+client.login("Nzc4MjMzMTgxNDQyNjcwNjIy.X7ln7w.R9ZllQ2jqILM2nhsXGZaOR_8Fzo");
 client2.login("Nzc5NjQwOTM3MTM5MjczNzI4.X7loRQ.r8FzUtY5ZQU3ntwrTcmbbNNMx4s");
-client3.login("");
-client4.login("");
-client5.login("");
-client6.login("");
-client.login("");
+client3.login("Nzc5NjQxMzczODM3MzYxMTcy.X7logg.oJir2uQCiQbj9xO3Hg4AcJEp7mc");
+client4.login("Nzc5Nzg5MjQyNjY2MzE5OTAz.X7lpmg.0VjdP7k4XMijLoElpc5w3m-ltuw");
+client5.login("Nzc5Nzg5OTA2NDQ3ODI2OTQ0.X7lqJQ.TD46gceuvRPtAX3EM_DbomWpO6o");
+client6.login("Nzc5NzkwNTc4MjI1MjUwMzI0.X7lquw.f_Zjr87-v1KSDQ05XOnQEi8DR38");
+client.login("Nzc5Nzk4MDM5OTM3MTU1MTEy.X7lxvQ.26C-jqKq5ham3e3ygifN7unA0nw");
 
 client.on('message', message => {
 if (message.content === '$spam') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x <8000; x++) {
-        message.channel.send(`m!help`)
+        message.channel.send(`t!help`)
           .then(m => {
             count++;
           })
@@ -35,7 +35,7 @@ if (message.content === '$spam') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 8000; x++) {
-        message.channel.send(`m!help`)
+        message.channel.send(`t!help`)
           .then(m => {
             count++;
           })
@@ -49,7 +49,7 @@ if (message.content === '$spam') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 8000; x++) {
-        message.channel.send(`m!help`)
+        message.channel.send(`t!help`)
           .then(m => {
             count++;
           })
@@ -63,7 +63,7 @@ if (message.content === '$spam') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 8000; x++) {
-        message.channel.send(`m!help`)
+        message.channel.send(`t!help`)
           .then(m => {
             count++;
           })
@@ -77,7 +77,7 @@ if (message.content === '$spam') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 8000; x++) {
-        message.channel.send(`m!help`)
+        message.channel.send(`t!help`)
           .then(m => {
             count++;
           })
@@ -91,7 +91,7 @@ if (message.content === '$spam') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 8000; x++) {
-        message.channel.send(`m!help`)
+        message.channel.send(`t!help`)
           .then(m => {
             count++;
           })
