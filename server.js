@@ -1,5 +1,5 @@
 const Discord = require("discord.js");
-const myid = ['Your ID']
+const myid = ['772965344926498836']
 const client = new Discord.Client();
 const client2 = new Discord.Client();
 const client3 = new Discord.Client();
@@ -8,101 +8,20 @@ const client5 = new Discord.Client();
 const client6 = new Discord.Client();
 
 
-client.login("");
-client2.login("");
-client3.login("");
-client4.login("");
+client.login("Nzc4MjMzMTgxNDQyNjcwNjIy.X7ln7w.R9ZllQ2jqILM2nhsXGZaOR_8Fzo");
+client2.login("Nzc5NjQwOTM3MTM5MjczNzI4.X7loRQ.r8FzUtY5ZQU3ntwrTcmbbNNMx4s");
+client3.login("Nzc5NjQxMzczODM3MzYxMTcy.X7logg.oJir2uQCiQbj9xO3Hg4AcJEp7mc");
+client4.login("Nzc5Nzg5MjQyNjY2MzE5OTAz.X7lpmg.0VjdP7k4XMijLoElpc5w3m-ltuw");
 client5.login("");
 client6.login("");
 
 
-
-client.on('message', message => {
-  if (message.content === '$d') {
-message.channel.send('#daily')
-  }
-  if(message.content === '$c'){
-message.channel.send('#credits')
-  }
-  if(message.content.startsWith("$s")) {
-    var text = message.content.split(' ').slice(1).join(' ');
-     message.channel.send(text);
-  }
-});
-
-client2.on('message', message => {
-  if(message.content === '$d'){
-message.channel.send('#daily')
-  }
-  if(message.content === '$c'){
-message.channel.send('#credits')
-  }
-  if(message.content.startsWith("$s")) {
-    var text = message.content.split(' ').slice(1).join(' ');
-     message.channel.send(text);
-  }
-});
-
-client3.on('message', message => {
-  if(message.content === '$d'){
-message.channel.send('#daily')
-  }
-  if(message.content === '$c'){
-message.channel.send('#credits')
-  }
-  if(message.content.startsWith("$s")) {
-    var text = message.content.split(' ').slice(1).join(' ');
-     message.channel.send(text);
-  }
-});
-
-client4.on('message', message => {
-  if (message.content === '$d') {
-message.channel.send('#daily')
-  }
-  if(message.content === '$c'){
-message.channel.send('#credits')
-  }
-  if(message.content.startsWith("$s")) {
-    var text = message.content.split(' ').slice(1).join(' ');
-     message.channel.send(text);
-  }
-});
-
-client5.on('message', message => {
-  if(message.content === '$d'){
-message.channel.send('#daily')
-  }
-  if(message.content === '$c'){
-message.channel.send('#credits')
-  }
-  if(message.content.startsWith("$s")) {
-    var text = message.content.split(' ').slice(1).join(' ');
-     message.channel.send(text);
-  }
-});
-
-client6.on('message', message => {
-  if (message.content === '$d') {
-message.channel.send('#daily')
-  }
-  if(message.content === '$c'){
-message.channel.send('#credits')
-  }
-  if(message.content.startsWith("$s")) {
-    var text = message.content.split(' ').slice(1).join(' ');
-     message.channel.send(text);
-  }
-});
-
-
-
 client.on('message', message => {
 if (message.content === '$spam') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 9000; x++) {
-        message.channel.send(`**??? ???? ??? **[ " ${x} " ]`)
+        message.channel.send(`m!help`)
           .then(m => {
             count++;
           })
@@ -116,7 +35,7 @@ if (message.content === '$spam') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 9000; x++) {
-        message.channel.send(`**??? ???? ??? **[ " ${x} " ]`)
+        message.channel.send(`m!help`)
           .then(m => {
             count++;
           })
@@ -130,7 +49,7 @@ if (message.content === '$spam') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 9000; x++) {
-        message.channel.send(`**??? ???? ??? ?? ??? **[ " ${x} " ]`)
+        message.channel.send(`m!help`)
           .then(m => {
             count++;
           })
@@ -144,7 +63,7 @@ if (message.content === '$spam') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 9000; x++) {
-        message.channel.send(`**??? ???? ??? ?? ??? **[ " ${x} " ]`)
+        message.channel.send(`m!help`)
           .then(m => {
             count++;
           })
@@ -158,7 +77,7 @@ if (message.content === '$spam') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 9000; x++) {
-        message.channel.send(`**??? ???? ??? ?? ??? **[ " ${x} " ]`)
+        message.channel.send(`m!help`)
           .then(m => {
             count++;
           })
@@ -172,7 +91,7 @@ if (message.content === '$spam') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 9000; x++) {
-        message.channel.send(`**??? ???? ??? **[ " ${x} " ]`)
+        message.channel.send(`m!help`)
           .then(m => {
             count++;
           })
@@ -182,39 +101,4 @@ if (message.content === '$spam') {
 });
 
 
-
-client.on('message', message => {
-    if(message.content === '!rep'){
-        message.channel.send("#rep "+"<@" + myid + ">")
-    }
-});
-
-client2.on('message', message => {
-    if(message.content === '!rep'){
-        message.channel.send("#rep "+"<@" + myid + ">")
-    }
-});
-
-client3.on('message', message => {
-    if(message.content === '!rep'){
-        message.channel.send("#rep "+"<@" + myid + ">")
-    }
-});
-
-client4.on('message', message => {
-    if(message.content === '!rep'){
-        message.channel.send("#rep "+"<@" + myid + ">")
-    }
-});
-
-client5.on('message', message => {
-    if(message.content === '!rep'){
-        message.channel.send("#rep "+"<@" + myid + ">")
-    }
-});
-
-client6.on('message', message => {
-    if(message.content === '!rep'){
-        message.channel.send("#rep "+"<@" + myid + ">")
-    }
-});
+///
