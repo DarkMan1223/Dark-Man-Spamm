@@ -18,7 +18,7 @@ client.login("");
 
 //// By : Wolf
 client.on('message', message => {
-if (message.content === '$spam') {
+if (message.content === '$wolf') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x <8000; x++) {
@@ -32,7 +32,7 @@ if (message.content === '$spam') {
 });
 
 client2.on('message', message => {
-if (message.content === '$spam') {
+if (message.content === '$wolf') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x <8000; x++) {
