@@ -18,11 +18,11 @@ client.login("");
 
 //// By : Wolf
 client.on('message', message => {
-if (message.content === '$wolf') {
+if (message.content === '$spam') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x <8000; x++) {
-        message.channel.send(`s!help`)
+        message.channel.send(`b!help`)
           .then(m => {
             count++;
           })
@@ -32,11 +32,11 @@ if (message.content === '$wolf') {
 });
 
 client2.on('message', message => {
-if (message.content === '$wolf') {
+if (message.content === '$spam') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x <8000; x++) {
-        message.channel.send(`s!help`)
+        message.channel.send(`b!help`)
           .then(m => {
             count++;
           })
