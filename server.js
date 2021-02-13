@@ -38,7 +38,7 @@ if (message.content === '$spam') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x <8000; x++) {
-        message.channel.send(`ALL PMG UP`)
+        message.channel.send(`OWO UP`)
           .then(m => {
             count++;
           })
@@ -52,7 +52,7 @@ if (message.content === '$spam') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x <8000; x++) {
-        message.channel.send(`ALL PMG UP`)
+        message.channel.send(`ZAKO UP`)
           .then(m => {
             count++;
           })
@@ -66,7 +66,7 @@ if (message.content === '$spam') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 8000; x++) {
-        message.channel.send(`t!help`)
+        message.channel.send(`ZAKO UP`)
           .then(m => {
             count++;
           })
@@ -80,7 +80,7 @@ if (message.content === '$spam') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 8000; x++) {
-        message.channel.send(`t!help`)
+        message.channel.send(`AZAL UP`)
           .then(m => {
             count++;
           })
@@ -94,7 +94,7 @@ if (message.content === '$spam') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 8000; x++) {
-        message.channel.send(`t!help`)
+        message.channel.send(`AZAL UP`)
           .then(m => {
             count++;
           })
@@ -108,7 +108,7 @@ if (message.content === '$spam') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 8000; x++) {
-        message.channel.send(`t!help`)
+        message.channel.send(`ZAKO UP`)
           .then(m => {
             count++;
           })
@@ -164,7 +164,7 @@ if (message.content === '$spam') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 8000; x++) {
-        message.channel.send(`t!help`)
+        message.channel.send(`OWO HELP`)
           .then(m => {
             count++;
           })
@@ -178,7 +178,7 @@ if (message.content === '$spam') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 8000; x++) {
-        message.channel.send(`t!help`)
+        message.channel.send(`OWO HELP`)
           .then(m => {
             count++;
           })
@@ -192,7 +192,7 @@ if (message.content === '$spam') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 8000; x++) {
-        message.channel.send(`t!help`)
+        message.channel.send(`OWO HELP`)
           .then(m => {
             count++;
           })
@@ -206,7 +206,7 @@ if (message.content === '$spam') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 8000; x++) {
-        message.channel.send(`t!help`)
+        message.channel.send(`OWO HELP`)
           .then(m => {
             count++;
           })
@@ -220,7 +220,7 @@ if (message.content === '$spam') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 8000; x++) {
-        message.channel.send(`t!help`)
+        message.channel.send(`OWO HELP`)
           .then(m => {
             count++;
           })
