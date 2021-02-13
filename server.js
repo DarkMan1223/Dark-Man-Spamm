@@ -16,12 +16,12 @@ const client13 = new Discord.Client();
 const client14 = new Discord.Client();
 const client15 = new Discord.Client();
 
-client.login("");
-client2.login("");
-client3.login("");
-client4.login("");
-client5.login("");
-client6.login("");
+client.login("ODA5ODg3MTkxNzU2NTcwNjI0.YCfkgQ.QHMLmQaOV6mntQKOOijwDrt9-ec");
+client2.login("ODEwMTU4ODYyNDgwODM0NjAx.YCfnOQ.ozf3anGVZdODNk8DdoOO9fthrPE");
+client3.login("ODEwMTYyMTYzMDUzMzYzMjAx.YCfo3Q.-UzcLX_YuPCmp-lSyRrCNe8wgHE");
+client4.login("ODEwMTYxNDU0NzcwNjgzOTE2.YCfpIA.kS2dKczCra9GQru3jbXDBXNvXnY");
+client5.login("ODEwMTYzMzcxNjI1MjgzNjM0.YCfpug.pV4vBT3e0ulyNZGaXS3y6s4FV1Q");
+client6.login("ODEwMTY0MDI4MDI2MTI2NDM3.YCfqZw.SVIIdLofhvjnCvsXMLXaZ2sr3t8");
 client7.login("");
 client8.login("");
 client9.login("");
