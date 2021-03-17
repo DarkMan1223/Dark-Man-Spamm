@@ -32,13 +32,13 @@ client13.login("");
 client14.login("");
 client15.login("");
 
-//// By : Wolf
+//// By : DarkMan9054
 client.on('message', message => {
 if (message.content === '$spam') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x <8000; x++) {
-        message.channel.send(`OWO UP`)
+        message.channel.send(`Dark Man Up`)
           .then(m => {
             count++;
           })
@@ -52,7 +52,7 @@ if (message.content === '$spam') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x <8000; x++) {
-        message.channel.send(`ZAKO UP`)
+        message.channel.send(`Dark Man Up`)
           .then(m => {
             count++;
           })
@@ -66,7 +66,7 @@ if (message.content === '$spam') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 8000; x++) {
-        message.channel.send(`ZAKO UP`)
+        message.channel.send(`Dark Man Up`)
           .then(m => {
             count++;
           })
@@ -80,7 +80,7 @@ if (message.content === '$spam') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 8000; x++) {
-        message.channel.send(`AZAL UP`)
+        message.channel.send(`Dark Man Up`)
           .then(m => {
             count++;
           })
@@ -94,7 +94,7 @@ if (message.content === '$spam') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 8000; x++) {
-        message.channel.send(`AZAL UP`)
+        message.channel.send(`Dark Man Up`)
           .then(m => {
             count++;
           })
@@ -108,7 +108,7 @@ if (message.content === '$spam') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 8000; x++) {
-        message.channel.send(`ZAKO UP`)
+        message.channel.send(`Dark Man Up`)
           .then(m => {
             count++;
           })
@@ -122,7 +122,7 @@ if (message.content === '$spam') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 8000; x++) {
-        message.channel.send(`t!help`)
+        message.channel.send(`Dark Man Up`)
           .then(m => {
             count++;
           })
@@ -136,7 +136,7 @@ if (message.content === '$spam') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 8000; x++) {
-        message.channel.send(`t!help`)
+        message.channel.send(`Dark Man Up`)
           .then(m => {
             count++;
           })
@@ -150,7 +150,7 @@ if (message.content === '$spam') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 8000; x++) {
-        message.channel.send(`t!help`)
+        message.channel.send(`Dark Man Up`)
           .then(m => {
             count++;
           })
@@ -164,7 +164,7 @@ if (message.content === '$spam') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 8000; x++) {
-        message.channel.send(`OWO HELP`)
+        message.channel.send(`Dark Man Up`)
           .then(m => {
             count++;
           })
@@ -178,7 +178,7 @@ if (message.content === '$spam') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 8000; x++) {
-        message.channel.send(`OWO HELP`)
+        message.channel.send(`Dark Man Up`)
           .then(m => {
             count++;
           })
@@ -192,7 +192,7 @@ if (message.content === '$spam') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 8000; x++) {
-        message.channel.send(`OWO HELP`)
+        message.channel.send(`Dark Man Up`)
           .then(m => {
             count++;
           })
@@ -206,7 +206,7 @@ if (message.content === '$spam') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 8000; x++) {
-        message.channel.send(`OWO HELP`)
+        message.channel.send(`Dark Man Up`)
           .then(m => {
             count++;
           })
@@ -220,7 +220,7 @@ if (message.content === '$spam') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 8000; x++) {
-        message.channel.send(`OWO HELP`)
+        message.channel.send(`Dark Man Up`)
           .then(m => {
             count++;
           })
@@ -234,7 +234,7 @@ if (message.content === '$spam') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 8000; x++) {
-        message.channel.send(`owo help`)
+        message.channel.send(`Dark Man Up`)
           .then(m => {
             count++;
           })
@@ -243,4 +243,4 @@ if (message.content === '$spam') {
       }
 });
 
-/////By;Wolf
+/////By;DarkMan9054
