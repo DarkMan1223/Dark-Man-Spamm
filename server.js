@@ -1,5 +1,5 @@
 const Discord = require("discord.js");
-const myid = ['786232962579431424']
+const myid = ['821850128683499531']
 const client = new Discord.Client();
 const client2 = new Discord.Client();
 const client3 = new Discord.Client();
@@ -16,11 +16,11 @@ const client13 = new Discord.Client();
 const client14 = new Discord.Client();
 const client15 = new Discord.Client();
 
-client.login("");
-client2.login("");
-client3.login("");
-client4.login("");
-client5.login("");
+client.login("ODIxMzQ5Mjg0ODYzNjcyMzcw.YFCbPg.-EwH7j7MBj2163dTTE5GIUD5YVc");
+client2.login("ODIxMzQ4OTgyMTEzNjk3ODA0.YFCa-w.gNBpKfWPG8tIdHda3bLRKj5TtMg");
+client3.login("ODIxMzQ4MDY2NzQxMDU5NTk4.YFCaHg.LzmyIjIDmu6pVLd-Pmo4s63apY8");
+client4.login("ODIxMzQ3NDE5OTc0NjY0MjQz.YFCZlA.fi-gPrIGQTb8n3vjfRtyswXOXBU");
+client5.login("ODIxMzQ3Nzc5MjI5MjUzNjQz.YFCZ0Q.jA3EGjm7hm-obCn1XUTUlBi6ALA");
 client6.login("");
 client7.login("");
 client8.login("");
